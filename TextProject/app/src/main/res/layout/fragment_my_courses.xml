@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layoutDirection="ltr"
+    tools:context=".ui.my_courses.MyCoursesFragment">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabMyCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/white"
+        app:tabIndicatorColor="#001E88E5"
+        android:gravity="start"
+        app:tabSelectedTextColor="@color/black"
+        app:tabMode="scrollable"
+        app:tabGravity="fill"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ACACAC"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerMyCourses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
