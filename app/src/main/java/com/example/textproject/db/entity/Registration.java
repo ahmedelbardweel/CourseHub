@@ -28,7 +28,7 @@ public class Registration {
     private long registrationId;
     private long userId;
     private long courseId;
-//    hi
+//    hi ahmed
 
     public Registration() {
     }
