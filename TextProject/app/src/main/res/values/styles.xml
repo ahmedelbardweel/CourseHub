@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <style name="BottomNavTextStyle" parent="TextAppearance.AppCompat.Caption">
-        <item name="android:textSize">10sp</item>
-        <item name="android:paddingTop">20dp</item> <!-- زود الرقم حسب المسافة اللي بدك ياها -->
-        <item name="android:textColor">@color/text_primary</item>
-    </style>
-</resources>
